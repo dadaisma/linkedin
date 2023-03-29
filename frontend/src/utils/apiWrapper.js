@@ -1,6 +1,6 @@
 
 export const apiWrapper = (url, method, body = {}, headers = {}) => {
-  const URL_BACKEND = window.location.hostname === 'job-link.netlify.app' ? 'https://job-link.up.railway.app/' : 'http://localhost:3001/';
+  const URL_BACKEND = window.location.hostname === 'job-link.netlify.app' ? 'https://joblink.up.railway.app/' : 'http://localhost:3001/';
   const options = {
     method: method,
     mode: "cors",
